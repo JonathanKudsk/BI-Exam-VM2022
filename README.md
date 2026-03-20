@@ -1,4 +1,4 @@
-# VM 2022 Messi vs. Mbappé
+# Data vs. Narrative: Messi vs. Mbappé: BI baseret evaluering af Player of the Tournament VM 2022
 
 Data vs. Narrative: En BI og ML analyse af om Messi eller Mbappé fremstår som den mest dominerende offensive spiller ved VM 2022.
 
@@ -12,7 +12,7 @@ Analysen bygger på følgende metodiske principper:
 
 - Per 90 normalisering: Offensive og proces relaterede mål normaliseres pr. 90 minutter for fair sammenligning på tværs af forskellig spilletid.
 - Feature engineering: V4 modellen kombinerer output, chancekvalitet, involvering, progression, defensive bidrag og negative hændelser i en samlet score.
-- Vægtet offensiv score: En lineær vægtning bruges til at aggregere features til én sammenlignelig rangering.
+- Vægtet offensiv score: En lineær vægtning bruges til at aggregere features til en sammenlignelig rangering.
 - Unsupervised profiling: KMeans bruges til at identificere offensive profiler (clusters).
 - Cluster robusthed: Stabilitet vurderes på tværs af KMeans initialiseringer med Adjusted Rand Index (ARI).
 - Forklaring af profiler: Feature importance bruges som fortolkningsværktøj for hvilke variable der adskiller profilerne.
